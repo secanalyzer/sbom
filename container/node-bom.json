@@ -1,0 +1,74 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3cd33b9d-9db7-4303-9fd5-f580f0766efd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-31T06:36:10.642Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.6.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "properties": [
+      {
+        "name": "oci:image:manifest:Config",
+        "value": "80eddb4b8564965167c1fe7ba2d42f03215dda04e2dfff4f780ec0959fdb152c.json"
+      },
+      {
+        "name": "oci:image:manifest:Layers",
+        "value": "e7577644e14ef06f71ee5c28f06bae8a3f22b46b07dcc4acda75c01333b7a10c/layer.tar\\nffda7b555af7a866cba96093c97baaf1a9e81980c0b29fe7aa2f72ce92f1e72a/layer.tar\\n39461bec71d41c11c32b5ec56215b15db2b8b31221143fea50ae096a10272be4/layer.tar\\n3a18d791bc10f1d8fd6721ada942f0ce83430173e9541bb45f90ca7f89efd5c1/layer.tar\\n159f0b0e711b129ee80a88357291e416490c705ca45426786acc11097bd61d9e/layer.tar\\n640d86b707d73755dc71524b87e5a6b49296308fe44457264a1f0caf02bb3049/layer.tar\\n8b12cb5dc4325cc949be7919d2e14036fc523cca1725f94132256164c9b57522/layer.tar\\n36ba8d0f00e6611405c69f3a96532e72c132d0e60c6efdf528cdca757b6fb496/layer.tar"
+      },
+      {
+        "name": "oci:image:lastLayer:Id",
+        "value": "36ba8d0f00e6611405c69f3a96532e72c132d0e60c6efdf528cdca757b6fb496"
+      },
+      {
+        "name": "oci:image:lastLayer:ParentId",
+        "value": "8b12cb5dc4325cc949be7919d2e14036fc523cca1725f94132256164c9b57522"
+      },
+      {
+        "name": "oci:image:lastLayer:Created",
+        "value": "2024-01-30T19:58:29.147448959Z"
+      },
+      {
+        "name": "oci:image:lastLayer:Env",
+        "value": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\\nNODE_VERSION=21.6.1\\nYARN_VERSION=1.22.19"
+      },
+      {
+        "name": "oci:image:lastLayer:Cmd",
+        "value": "node"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "yarn",
+      "version": "1.22.19",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/yarn@1.22.19",
+      "type": "library",
+      "bom-ref": "pkg:npm/yarn@1.22.19",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:/Users/qq176/AppData/Local/Temp/docker-images-BAKRmp/all-layers/opt/yarn-v1.22.19/package.json"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}

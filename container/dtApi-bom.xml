@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:4623aaf0-2d39-4a86-ae9b-d6f78d498302" version="1">
+  <metadata>
+    <timestamp>2024-01-31T06:27:35.523Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>cyclonedx</vendor>
+        <name>cdxgen</name>
+        <version>8.6.0</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Prabhu Subramanian</name>
+        <email>prabhu@appthreat.com</email>
+      </author>
+    </authors>
+    <properties>
+      <property name="oci:image:manifest:Config">91d0e01a7a1387a9fbc2776f887235af2a73f5848fa833a7e274fbabb3fe2c99.json</property>
+      <property name="oci:image:manifest:Layers">ab51523709d8c5be1c4bba5e021585d9654dcee8d239492de63d4b29d508938e/layer.tar\n31c9311eb3a76666d180a6bb67b39c0f15f0de232c827b0dbddac5216178479f/layer.tar\n8ce22d5ff223868cfe7dbf035d58e1ae8cec528d7077c681e129e616d645c163/layer.tar\ne1202b6ad3ba7ec5378f50a0848cddf958ad5a7a72726f98c3cc90630215cfe4/layer.tar</property>
+      <property name="oci:image:lastLayer:Id">e1202b6ad3ba7ec5378f50a0848cddf958ad5a7a72726f98c3cc90630215cfe4</property>
+      <property name="oci:image:lastLayer:ParentId">8ce22d5ff223868cfe7dbf035d58e1ae8cec528d7077c681e129e616d645c163</property>
+      <property name="oci:image:lastLayer:Created">2024-01-30T02:57:23.540024438Z</property>
+      <property name="oci:image:lastLayer:Env">PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\nTZ=Etc/UTC\nLOGGING_LEVEL=INFO\nJAVA_OPTIONS=-XX:+UseParallelGC -XX:MaxRAMPercentage=90.0\nEXTRA_JAVA_OPTIONS=\nCONTEXT=/\nWAR_FILENAME=dependency-track-apiserver.jar\nJAVA_HOME=/opt/java/openjdk\nLANG=C.UTF-8\nHOME=/data/\nDEFAULT_TEMPLATES_OVERRIDE_ENABLED=false\nDEFAULT_TEMPLATES_OVERRIDE_BASE_DIRECTORY=/data/\nLOGGING_CONFIG_PATH=logback.xml</property>
+      <property name="oci:image:lastLayer:Cmd">/bin/sh -c exec java ${JAVA_OPTIONS} ${EXTRA_JAVA_OPTIONS}     --add-opens java.base/java.util.concurrent=ALL-UNNAMED     -Dlogback.configurationFile=${LOGGING_CONFIG_PATH}     -DdependencyTrack.logging.level=${LOGGING_LEVEL}     -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:30435    -jar ${WAR_FILENAME}     -context ${CONTEXT}</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/dependency-track@apiserver">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>dependency-track</name>
+      <version>apiserver</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:maven/dependency-track@apiserver</purl>
+    </component>
+  </components>
+</bom>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:b8563787-91fa-428f-b628-79664bf589b0" version="1">
+  <metadata>
+    <timestamp>2024-01-31T06:36:47.925Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>cyclonedx</vendor>
+        <name>cdxgen</name>
+        <version>8.6.0</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Prabhu Subramanian</name>
+        <email>prabhu@appthreat.com</email>
+      </author>
+    </authors>
+    <properties>
+      <property name="oci:image:manifest:Config">7c36c11058eaf9d9d700f1d51ba8cab1f3ea8f27840ab5973b31a3396ef3a954.json</property>
+      <property name="oci:image:manifest:Layers">14e5974346a0133b7fc7669606988f770cc26c26fea62c13204d742dc4f93cda/layer.tar\n78666fd21f888d0703f56c6a123860074ad6cc1b7fe0a5c2f97e8cf224ee7b76/layer.tar\n61677a9de689880b1bb8f202d72d7997bc3f6a335bf0727d03b2ae9d07207a4a/layer.tar\n9c15f7562119db1a4769cdf6d07585d79e84691291b3aeb10f8b0ce08467412c/layer.tar\nc607727b6b8dba51d234511c9a0bdd7c8e801632a11df86cce7fbc70b984b75b/layer.tar\na46e75e067454189be739858cfc434f0442004a0a29a8a828e9c8530c617a074/layer.tar\nd246f80ce87d9fdf65f5e84ce58644d40ce5f9df0c28300af1479206b94288ef/layer.tar\n028a4f03649374a5733bb3c97c4f887ffc1cfc071ad21a81b9f23125704785b7/layer.tar\ndc064973903e2575b15fd6a30335e5bd61f76f1388d627c76edd7950b611242c/layer.tar\n2628475d6f07034024ecd710bd6e95bb6f9c7fb930920fddded8a3e636f69e02/layer.tar\n9e9bd22c3dc487cccef285ea5b5b480529deb33e99b688d9ed5f669b54638560/layer.tar\n8700ae4d8ac73c82344a6f7b28d3237cee2aeb83836aa615b00750611e847e2d/layer.tar\n200fe05aa965b3b3d44a8a95290692aa074e265d579baa7930d173323194d391/layer.tar\n84d735104e5238a3fa263256a50137207306ce38bcfe56f15233df90e953dab0/layer.tar</property>
+      <property name="oci:image:lastLayer:Id">84d735104e5238a3fa263256a50137207306ce38bcfe56f15233df90e953dab0</property>
+      <property name="oci:image:lastLayer:ParentId">200fe05aa965b3b3d44a8a95290692aa074e265d579baa7930d173323194d391</property>
+      <property name="oci:image:lastLayer:Created">2023-12-08T14:17:49.237274643Z</property>
+      <property name="oci:image:lastLayer:Env">PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\nNGINX_VERSION=1.25.3\nPKG_RELEASE=1\nNJS_VERSION=0.8.2\nTZ=Etc/UTC\nLANG=C.UTF-8\nOIDC_SCOPE=openid profile email</property>
+      <property name="oci:image:lastLayer:Cmd">nginx -g daemon off;</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:npm/cryptojs@3.1.2">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>cryptojs</name>
+      <version>3.1.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:npm/cryptojs@3.1.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/(c)@Tom">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>(c)</name>
+      <version>Tom</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:npm/(c)@Tom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/(c)@Stefan">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>(c)</name>
+      <version>Stefan</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:npm/(c)@Stefan</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/mike@Samuel">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>mike</name>
+      <version>Samuel</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:npm/mike@Samuel</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/ieee754.@BSD-3-Clause">
+      <author/>
+      <publisher/>
+      <group/>
+      <name>ieee754.</name>
+      <version>BSD-3-Clause</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:npm/ieee754.@BSD-3-Clause</purl>
+    </component>
+  </components>
+</bom>

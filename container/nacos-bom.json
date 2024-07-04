@@ -1,0 +1,70 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:be297005-79bb-454f-86de-6fc9aabc26d4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-01-31T06:28:52.772Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.6.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "properties": [
+      {
+        "name": "oci:image:manifest:Config",
+        "value": "c056b930e4ddc61964573a5c786d2a5e5d1b7f5c3c6abd3e98f7bb7298ca334c.json"
+      },
+      {
+        "name": "oci:image:manifest:Layers",
+        "value": "291eb894538de0baee3beecbbb57ef8668b00974b05062ff0d78c0dc110820ac/layer.tar\\nc5defaf65011e72608fbcf550d562d06af36127fc8b176dca67b86be9e8f9e81/layer.tar\\n72f90a8af743816df6a785ef22b4131ba1ea3c684fa57d9f15dc262b30bcc39d/layer.tar\\n00b18784c05433611f605f3c03f8e3ab6351fd10a1cbb1aa82a50fa8cc886e9c/layer.tar\\n3cfbe0d2a9bdbf3d19010ba7689670767a7dfa944b2c34c591da0f5d65807c82/layer.tar\\nf791184aa495dc6a01867648f6394739b1340714a56fc21ec278e8a0647df665/layer.tar\\n8b29caefbec1d39ed06bb5984466a525a8d9552e0e3f184c868b1cda2e6fbe15/layer.tar\\n174792379c9fa4d605299dcd474274549c841db2e69952011bd5bb29dec36ed9/layer.tar"
+      },
+      {
+        "name": "oci:image:lastLayer:Id",
+        "value": "174792379c9fa4d605299dcd474274549c841db2e69952011bd5bb29dec36ed9"
+      },
+      {
+        "name": "oci:image:lastLayer:ParentId",
+        "value": "8b29caefbec1d39ed06bb5984466a525a8d9552e0e3f184c868b1cda2e6fbe15"
+      },
+      {
+        "name": "oci:image:lastLayer:Created",
+        "value": "2023-12-06T07:18:08.86642398Z"
+      },
+      {
+        "name": "oci:image:lastLayer:Env",
+        "value": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\\nMODE=cluster\\nPREFER_HOST_MODE=ip\\nBASE_DIR=/home/nacos\\nCLASSPATH=.:/home/nacos/conf:\\nCLUSTER_CONF=/home/nacos/conf/cluster.conf\\nFUNCTION_MODE=all\\nJAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk\\nNACOS_USER=nacos\\nJAVA=/usr/lib/jvm/java-1.8.0-openjdk/bin/java\\nJVM_XMS=1g\\nJVM_XMX=1g\\nJVM_XMN=512m\\nJVM_MS=128m\\nJVM_MMS=320m\\nNACOS_DEBUG=n\\nTOMCAT_ACCESSLOG_ENABLED=false\\nTIME_ZONE=Asia/Shanghai"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "nacos",
+      "version": "2.3.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/nacos@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/nacos@2.3.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "nacos-server.jar"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}
